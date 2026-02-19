@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>متجري الإلكتروني</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #F8F4E3; /* أبيض حليبي */
+        direction: rtl;
+    }
+
+    header {
+        background-color: #87CEFA; /* أزرق فاتح */
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        padding: 15px;
+        text-align: center;
+    }
+
+    .card img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .price {
+        color: #87CEFA;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    button {
+        background-color: #87CEFA;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #5fb4f2;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #87CEFA;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    مرحباً بكم في متجري الإلكتروني
+</header>
+
+<section class="products">
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="منتج">
+        <h3>اسم المنتج</h3>
+        <div class="price">25$</div>
+        <button>إضافة للسلة</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="منتج">
+        <h3>اسم المنتج</h3>
+        <div class="price">30$</div>
+        <button>إضافة للسلة</button>
+    </div>
+</section>
+
+<footer>
+    جميع الحقوق محفوظة © 2026
+</footer>
+
+</body>
+</html>
